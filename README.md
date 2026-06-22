@@ -1,7 +1,7 @@
 **Project Overview**
 This project focuses on data harmonization and pipeline engineering to connect top-of-funnel paid media performance with backend web analytics. By engineering a multi-key data blend, this dashboard spots data discrepancies, tracking pixel inflation, and paid traffic drop-off rates.
 
-Dashboard: https://datastudio.google.com/reporting/2073cbb1-3736-410d-93a0-bd5283ae1fa0
+Dashboard: https://datastudio.google.com/s/rryt944qjuQ
 
 **Data Architecture & Tech Stack**
 **BI Platform:** Google Looker Studio
