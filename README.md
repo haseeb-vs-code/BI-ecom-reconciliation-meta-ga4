@@ -17,6 +17,6 @@ This project focuses on data harmonization and pipeline engineering to connect t
 
 - **The 32.1% Traffic Leak:** Uncovered a gap where nearly one-third of paid Meta Link Clicks (539 clicks) never registered as GA4 Sessions (366 sessions). This highlights a clear need to optimize mobile site-load speeds and compress page images.
 
-- **Audience Patience Discrepancy:** Proved that cold prospecting campaigns (New_Targeting) are highly unstable, dropping to a low 54.55% match rate. On the other hand, warmer Retargeting campaigns held strong between 70% and 92%. This shows that returning users are much more willing to wait for a slow page to load.
+- **Click-to-Session Match Rate by Audience:** Cold prospecting campaigns (New_Targeting) had the lowest match rate at 54.55%, while retargeting campaigns ranged from 70% to 92%. One possible explanation is that returning users are more willing to wait for a slow page to load, but the gap could also come from accidental clicks, bot traffic, ad blockers, or users declining cookie consent before GA4 records the session. A next step would be to compare match rates against page-load times by campaign to test which explanation holds.
 
 - **Funnel Optimization:** Isolated a core bottleneck where cold prospecting spend successfully drives top-of-funnel clicks but results in a 0% purchase conversion rate. Based on this data, the immediate business recommendation is to shift budget into the high-performing retargeting campaigns to protect ROAS.
